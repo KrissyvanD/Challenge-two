@@ -1,0 +1,43 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+align-items: center;
+text-align: center;
+
+
+}
+body{
+    background: white;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+#playButton{
+    width: 50px;
+    height: 25px;
+    margin: 50px;
+}
+
+#backButton{
+    width: 50px;
+    height: 25px;
+    margin: 50px;
+}
+
+#clockDigital{
+    width: 500px;
+    height: 200px;
+    margin: 150px auto;
+    text-align: center;
+    font-size: 100px;
+    transition-duration: 1s;
+
+}
+#clockDigital.changeSize{
+    font-size: 120px;
+    transition-duration: 2s;
+    color: rgb(17, 40, 69);
+    font-family: 'Blaka', cursive !important;
+
+}
